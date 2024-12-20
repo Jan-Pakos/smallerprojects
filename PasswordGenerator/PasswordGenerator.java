@@ -17,7 +17,11 @@ public class PasswordGenerator {
     }
 
     public static String generatePassword(int length){
-     char[] lowerCaseLetters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
+     char[] lowerCaseLetters = {
+                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+                'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
+                'w', 'x', 'y', 'z'
+        };
      char[] upperCaseLetters = {'A', 'B', 'C', 'D', 'E', 'F', 'G',
                                  'H', 'I', 'J', 'K', 'L', 'M', 'N',
                                  'O', 'P', 'Q', 'R', 'S', 'T', 'U',
