@@ -1,6 +1,10 @@
 import java.util.Random;
 import java.util.Scanner;
 
+// The PasswordGenerator class is a simple Java application that generates a random password based on user-defined length. 
+// The program ensures that the password is at least 8 characters long and uses a mix of lowercase letters, 
+// uppercase letters, numbers, and special characters for enhanced security.
+
 public class PasswordGenerator {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
